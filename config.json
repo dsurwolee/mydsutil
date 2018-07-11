@@ -1,0 +1,10 @@
+{
+	"setting": {
+		"continuous": [
+			{"range": [0, 20], "method": ["center_impute"]},
+			{"range": [20, 80], "method": ["fixed_value_impute"]},
+			{"range": [80, 100], "method": ["fixed_value_impute"]}
+		]
+	},
+	"continuous": ["c1","c2"]
+}
